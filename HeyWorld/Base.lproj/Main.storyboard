@@ -33,6 +33,9 @@
                                 <state key="normal" title="Show text">
                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="makeButtonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="zKs-Sp-ZNo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,6 +48,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qXb-LB-8ug" secondAttribute="bottom" constant="63" id="w7c-lg-eeF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="heyWorldLabel" destination="2gG-iW-Q5z" id="zAe-Nv-3hz"/>
+                        <outlet property="toggleButton" destination="qXb-LB-8ug" id="22D-SS-eOn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
